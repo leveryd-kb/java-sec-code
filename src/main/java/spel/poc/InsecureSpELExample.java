@@ -1,4 +1,4 @@
-package spel;
+package spel.poc;
 
 import org.springframework.expression.ExpressionParser;
 import org.springframework.expression.spel.standard.SpelExpressionParser;

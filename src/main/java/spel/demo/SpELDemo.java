@@ -1,4 +1,4 @@
-package spel;
+package spel.demo;
 
 import org.springframework.expression.Expression;
 import org.springframework.expression.ExpressionParser;
@@ -19,6 +19,7 @@ public class SpELDemo {
 
         // 解析并执行一个SpEL表达式
         String spelExpression = "#root.name + ' is ' + #root.age + ' years old'";
+        // String spelExpression = "#{'${1+1}'}";  // SpEL不支持${}语法
         Expression exp = parser.parseExpression(spelExpression);
 
         // 执行表达式并获取结果

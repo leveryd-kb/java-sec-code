@@ -24,6 +24,24 @@
 
         <!-- 如果你的应用基于Spring框架其他模块，请添加相应的依赖 -->
         <!-- ... -->
+
+        <!-- 添加Ognl依赖 -->
+        <dependency>
+            <groupId>ognl</groupId>
+            <artifactId>ognl</artifactId>
+            <version>3.1.12</version> <!-- 使用最新稳定版本替换 -->
+        </dependency>
+
+        <dependency>
+            <groupId>javax.el</groupId>
+            <artifactId>javax.el-api</artifactId>
+            <version>3.0.0</version> <!-- 根据你的项目需求选择合适的版本 -->
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.el</artifactId>
+            <version>3.0.0</version>
+        </dependency>
     </dependencies>
 
 </project>
