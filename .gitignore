@@ -2,3 +2,7 @@
 *.class
 target
 tmp.ser
+dependency-reduced-pom.xml
+.DS_store
+hessian_serialized.bin
+.vscode/settings.json
